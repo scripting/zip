@@ -1,0 +1,17 @@
+{
+	"name": "testzip",
+	"description": "Test app for davezip package.",
+	"author": "Dave Winer <dave@scripting.com>",
+	"version": "0.4.0",
+	"scripts": {
+		"start": "node test.js"
+		},
+	"dependencies" : {
+		"daveutils": "*",
+		"davezip": "*"
+		}, 
+	"license": "MIT",
+	"engines": {
+		"node": "*"
+		}
+	}
