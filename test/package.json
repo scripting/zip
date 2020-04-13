@@ -5,13 +5,13 @@
 	"version": "0.4.0",
 	"scripts": {
 		"start": "node test.js"
-	},
-	"dependencies": {
+		},
+	"dependencies" : {
 		"daveutils": "*",
-		"davezip": "^0.4.3"
-	},
+		"davezip": "*"
+		}, 
 	"license": "MIT",
 	"engines": {
 		"node": "*"
+		}
 	}
-}
