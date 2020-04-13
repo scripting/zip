@@ -2,19 +2,21 @@
 	"name": "davezip",
 	"description": "A simpler interface for zipping archives, builds on the archiver package.",
 	"author": "Dave Winer <dave@scripting.com>",
-	"version": "0.4.1",
+	"license": "MIT",
+	"version": "0.4.3",
+	"main": "davezip.js",
 	"scripts": {
 		"start": "node test.js"
 		},
 	"files": [
 		"davezip.js",
-		"package.json"
+		"package.json",
+		"readme.md"
 		],
 	"dependencies" : {
 		"daveutils": "*",
 		"archiver": "*"
 		}, 
-	"license": "MIT",
 	"engines": {
 		"node": "*"
 		}
