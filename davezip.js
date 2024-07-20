@@ -1,4 +1,4 @@
-var myVersion = "0.4.4", myProductName = "davezip";
+var myVersion = "0.4.7", myProductName = "davezip";
 
 const fs = require ("fs"); 
 const utils = require ("daveutils");
