@@ -3,7 +3,7 @@
 	"description": "A simpler interface for zipping archives, builds on the archiver package.",
 	"author": "Dave Winer <dave@scripting.com>",
 	"license": "MIT",
-	"version": "0.4.7",
+	"version": "0.4.8",
 	"main": "davezip.js",
 	"repository": {
 		"type": "git",
@@ -16,7 +16,7 @@
 		],
 	"dependencies" : {
 		"daveutils": "*",
-		"archiver": "*"
+		"archiver": "^5.3.2"
 		}, 
 	"engines": {
 		"node": "*"

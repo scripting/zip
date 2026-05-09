@@ -1,3 +1,9 @@
+#### 5/9/26; 11:53:11 AM by DW
+
+In package.json, instead of allowing any version of archiver package, we now require ^5.3.2.
+
+For questions about this check in with Claude Code for the rssNetwork project. 
+
 #### 7/20/24; 5:11:40 PM by DW
 
 A package that's used by archiver, minimatch, uses a feature that's only available in a version of Node that doesn't work on my Mac running High Sierra (v10.13.6). I'm trying to roll back the archiver version to 5.3.1 which was released on Apr 15, 2022 to see if that fixes the problem. 
